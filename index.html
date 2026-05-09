@@ -3,153 +3,164 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>VEEMO PICTURE</title>
 
 <style>
 
 body{
-margin:0;
-background:#0b0b0b;
-font-family:Arial, sans-serif;
-color:white;
+    margin:0;
+    background:#0b0b0b;
+    color:white;
+    font-family:Arial;
 }
 
 header{
-text-align:center;
-padding:20px;
-border-bottom:1px solid #222;
+    padding:20px;
+    text-align:center;
+    border-bottom:1px solid #222;
+}
+
+h1{
+    letter-spacing:3px;
 }
 
 .hero{
-text-align:center;
-padding:50px 20px;
+    text-align:center;
+    padding:60px 20px;
 }
 
 .gallery{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:20px;
-padding:20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+    padding:20px;
 }
 
 .card{
-background:#111;
-border-radius:10px;
-overflow:hidden;
+    background:#111;
+    border-radius:12px;
+    overflow:hidden;
 }
 
 .card img{
-width:100%;
-height:250px;
-object-fit:cover;
-display:block;
+    width:100%;
+    height:300px;
+    object-fit:cover;
 }
 
 .card-content{
-padding:15px;
+    padding:20px;
+}
+
+.card-content h3{
+    margin:0;
+}
+
+.card-content p{
+    font-weight:bold;
+    margin-top:10px;
 }
 
 .buy-btn{
-display:block;
-background:white;
-color:black;
-text-align:center;
-padding:12px;
-border-radius:6px;
-text-decoration:none;
-font-weight:bold;
-margin-top:10px;
+    display:block;
+    background:white;
+    color:black;
+    text-align:center;
+    padding:12px;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:bold;
+    margin-top:15px;
 }
 
 .pricing{
-padding:60px 20px;
-display:flex;
-justify-content:center;
+    text-align:center;
+    padding:60px 20px;
 }
 
 .pricing-box{
-background:#151515;
-padding:30px;
-border-radius:10px;
-max-width:400px;
-width:100%;
-text-align:center;
+    background:#151515;
+    padding:30px;
+    border-radius:12px;
+    max-width:400px;
+    margin:60px auto;
+    color:white;
 }
 
-.pricing-box button{
-background:white;
-color:black;
-border:none;
-padding:12px 20px;
-border-radius:6px;
-font-weight:bold;
-cursor:pointer;
-margin-top:15px;
+.subscribe-btn{
+    background:white;
+    color:black;
+    border:none;
+    padding:14px 24px;
+    border-radius:8px;
+    font-weight:bold;
+    cursor:pointer;
+    margin-top:20px;
 }
 
 </style>
+
 </head>
 
 <body>
 
 <header>
-<h1>VEEMO PICTURE</h1>
+    <h1>VEEMO PICTURE</h1>
 </header>
 
 <section class="hero">
-<h2>Premium African Images</h2>
-<p>Découvrez des images professionnelles uniques.</p>
+    <h2>Premium African Images</h2>
+    <p>Découvrez des images professionnelles uniques.</p>
 </section>
 
 <section class="gallery">
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop">
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1200&auto=format&fit=crop">
 
-<div class="card-content">
-<h3>Nature Premium</h3>
-<p>14$</p>
+        <div class="card-content">
+            <h3>Nature Premium</h3>
+            <p>14$</p>
 
-<a class="buy-btn"
-href="https://wa.me/243994234207"
-target="_blank">
-🛒 Acheter sur WhatsApp
-</a>
+            <a class="buy-btn"
+            href="https://wa.me/243994234207?text=Bonjour%20je%20veux%20acheter%20Nature%20Premium"
+            target="_blank">
+            🛒 Acheter sur WhatsApp
+            </a>
+        </div>
+    </div>
 
-</div>
-</div>
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1200&auto=format&fit=crop">
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1200&auto=format&fit=crop">
+        <div class="card-content">
+            <h3>Urban Lifestyle</h3>
+            <p>20$</p>
 
-<div class="card-content">
-<h3>Urban Lifestyle</h3>
-<p>20$</p>
-
-<a class="buy-btn"
-href="https://wa.me/243994234207"
-target="_blank">
-🛒 Acheter sur WhatsApp
-</a>
-
-</div>
-</div>
+            <a class="buy-btn"
+            href="https://wa.me/243994234207?text=Bonjour%20je%20veux%20acheter%20Urban%20Lifestyle"
+            target="_blank">
+            🛒 Acheter sur WhatsApp
+            </a>
+        </div>
+    </div>
 
 </section>
 
 <section class="pricing">
 
-<div class="pricing-box">
+    <div class="pricing-box">
+        <h2>Abonnement Premium</h2>
 
-<h2>Abonnement Premium</h2>
+        <p>Accès illimité aux images</p>
 
-<p>Accès illimité aux images premium</p>
+        <h3>350$/mois</h3>
 
-<h3>350$/mois</h3>
-
-<button>S'abonner</button>
-
-</div>
+        <button class="subscribe-btn">
+            S’abonner
+        </button>
+    </div>
 
 </section>
 
